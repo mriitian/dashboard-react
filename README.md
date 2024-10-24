@@ -40,3 +40,13 @@ Make sure you have the following installed:
    ```bash
    cd dashboard-react
 
+3. Install dependencies:
+
+   ```bash
+   npm install
+
+2. Start the development server:
+
+   ```bash
+   npm run dev
+
