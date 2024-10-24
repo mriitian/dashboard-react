@@ -1,8 +1,42 @@
-# React + Vite
+# React Admin Dashboard
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This project is a fully responsive Admin Dashboard built using React and Material UI. It features multiple pages such as Dashboard, Team Management, Contacts Information, Invoices, Calendar, and more. The dashboard also supports a light/dark mode toggle and is designed to be mobile-friendly.
 
-Currently, two official plugins are available:
+## Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- 📊 **Dashboard Overview**: Displays key metrics and charts.
+- 👥 **Manage Team**: Add, edit, and view team members.
+- 📇 **Contacts Information**: Maintain contacts.
+- 🧾 **Invoices**: View and manage invoices.
+- 📅 **Calendar**: Schedule and manage events.
+- 📈 **Charts**: Various visualizations like bar, line, and pie charts.
+- 🌙 **Dark Mode Toggle**: Switch between light and dark modes.
+
+## Tech Stack
+
+- React
+- Material UI
+- React Router Dom
+- Nivo Charts
+
+## Getting Started
+
+### Prerequisites
+
+Make sure you have the following installed:
+
+- [Node.js](https://nodejs.org/) (v14 or later)
+- [npm](https://www.npmjs.com/) or [yarn](https://yarnpkg.com/)
+
+### Installation
+
+1. Clone the repository:
+
+   ```bash
+   git clone https://github.com/mriitian/dashboard-react.git
+   ```bash
+2. Navigate to the project directory:
+
+   ```bash
+   cd dashboard-react
+   ```bash
