@@ -34,9 +34,9 @@ Make sure you have the following installed:
 
    ```bash
    git clone https://github.com/mriitian/dashboard-react.git
-   ```bash
+
 2. Navigate to the project directory:
 
    ```bash
    cd dashboard-react
-   ```bash
+
