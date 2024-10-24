@@ -1,8 +1,8 @@
 import { CssBaseline, ThemeProvider } from "@mui/material";
 import { ColorModeContext, useMode } from "./theme";
 import { Route, Routes } from "react-router-dom";
-import TopBar from "./scenes/global/TopBar";
-import SideBar from "./scenes/global/SideBar";
+import TopBar from "./scenes/global/TopBar.jsx";
+import SideBar from "./scenes/global/SideBar.jsx";
 import Dashboard from "./scenes/dashboard/index";
 import Team from "./scenes/team/index";
 import Contacts from "./scenes/contacts";
