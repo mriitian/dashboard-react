@@ -1,8 +1,8 @@
 import { CssBaseline, ThemeProvider } from "@mui/material";
 import { ColorModeContext, useMode } from "./theme";
 import { Route, Routes } from "react-router-dom";
-import TopBar from "./scenes/global/TopBar.jsx";
-import SideBar from "./scenes/global/SideBar.jsx";
+import Topbar from "./scenes/global/TopBar.jsx";
+import Sidebar from "./scenes/global/SideBar.jsx";
 import Dashboard from "./scenes/dashboard/index";
 import Team from "./scenes/team/index";
 import Contacts from "./scenes/contacts";
@@ -23,9 +23,9 @@ function App() {
       <ThemeProvider theme={theme}>
         <CssBaseline />
         <div className="app">
-          <SideBar />
+          <Sidebar />
           <main className="content">
-            <TopBar />
+            <Topbar />
             <Routes>
               <Route path="/" element={<Dashboard />} />
               <Route path="/team" element={<Team />} />
